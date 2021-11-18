@@ -55,6 +55,8 @@
     border-radius: 15px;
 }
 
+/*botões previous e next com border-radius ajustados*/
+
 .action-button-l{
     font: bold 30px sans-serif;
     display: flex;
@@ -64,6 +66,9 @@
     color: #00000000;
     user-select: none;
     z-index: 1;
+    transition: all 1s;
+    border-top-left-radius: 15px;
+    border-end-start-radius: 15px;
 
 }
 
@@ -85,6 +90,9 @@
     color: #00000000;
     user-select: none;
     z-index: 1;
+    transition: all 1s;
+    border-top-right-radius: 15px;
+    border-end-end-radius: 15px;
 
 }
 
